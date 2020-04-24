@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminWork">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Add new Food item"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/foodname_input"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name" />
+
+    <EditText
+        android:id="@+id/foodprice_input"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Price" />
+
+    <EditText
+        android:id="@+id/fooddescription_input"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Description" />
+
+    <EditText
+        android:id="@+id/foodimg_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Image URL" />
+
+    <Spinner
+        android:id="@+id/foodtype_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/categories_array"
+        android:layout_margin="5sp" />
+
+    <Button
+        android:id="@+id/admininput_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Add to Database" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/mngCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginBottom="25dp"
+            android:text="Manage Orders" />
+
+        <Button
+            android:id="@+id/adminSignout_btn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginBottom="30dp"
+            android:text="Sign Out" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

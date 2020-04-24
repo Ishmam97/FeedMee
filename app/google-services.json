@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1098797630170",
+    "firebase_url": "https://feedmee-b5a55.firebaseio.com",
+    "project_id": "feedmee-b5a55",
+    "storage_bucket": "feedmee-b5a55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098797630170:android:e288bc3b874b379c899be3",
+        "android_client_info": {
+          "package_name": "com.ishmam.feedmee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098797630170-1c8j2kiq3br00v2t50akvb74nsf87p06.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ishmam.feedmee",
+            "certificate_hash": "1b674cedd095d6c98aba673fed4c8c1742b588fa"
+          }
+        },
+        {
+          "client_id": "1098797630170-8d93u9sg7k3dt5hdpb2ces92vb9s2nqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ5ak-6EYT1n3LKGmcbHnkmC--Uh0XOCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098797630170-8d93u9sg7k3dt5hdpb2ces92vb9s2nqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
